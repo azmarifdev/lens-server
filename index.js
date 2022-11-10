@@ -259,6 +259,9 @@ app.delete('/myreview/:id', async (req, res) => {
     }
 });
 
+
+// patch 
+
 app.patch('/myreview/:id', async (req, res) => {
     try {
         const { id } = req.params;
