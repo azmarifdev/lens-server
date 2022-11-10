@@ -259,8 +259,7 @@ app.delete('/myreview/:id', async (req, res) => {
     }
 });
 
-
-// patch 
+// patch
 
 app.patch('/myreview/:id', async (req, res) => {
     try {
@@ -288,7 +287,6 @@ app.patch('/myreview/:id', async (req, res) => {
         });
     }
 });
-
 
 // find review
 
