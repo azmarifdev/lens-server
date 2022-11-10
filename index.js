@@ -52,6 +52,7 @@ async function run() {
 }
 run();
 
+// mongoDB Collection
 const Services = client.db('services').collection('photo');
 const Reviews = client.db('services').collection('review');
 
