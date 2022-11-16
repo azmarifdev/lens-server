@@ -33,7 +33,6 @@ function verifyJWT(req, res, next) {
 }
 
 // main function
-
 async function run() {
     try {
         await client.connect();
